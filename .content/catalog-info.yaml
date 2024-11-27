@@ -3,7 +3,7 @@ kind: Resource
 metadata:
   name: "infra-test-terraform"
   annotations:
-    github.com/project-slug: test/cluster-ec2
+    github.com/project-slug: infra-test-terraform
     backstage.io/techdocs-ref: dir:..
     infracost/project: infra-test-terraform
 spec:
