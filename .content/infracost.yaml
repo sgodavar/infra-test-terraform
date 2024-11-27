@@ -1,7 +1,7 @@
 apiVersion: veecode.backstage.io/v1alpha1
 kind: Infracost
 metadata:
-  name: "infra-test-terraform"  // here it should have the same name as the main project
+  name: "project_fa2h4ncv"  // here it should have the same name as the main project
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
