@@ -1,0 +1,12 @@
+apiVersion: veecode.backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: "resourcegroup"
+  annotations:
+    github.com/project-slug: infra-test-terraform
+    backstage.io/techdocs-ref: dir:.
+    infracost/project: infra-test-terraform
+spec:
+  type: resourcegroup
+  lifecycle: experimental
+  owner: "group:default/admin"
