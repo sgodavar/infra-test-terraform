@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: "resourcegroup"
+  name: "AzureVM"
   annotations:
     github.com/project-slug: infra-test-terraform
     infracost/project: infra-test-terraform
